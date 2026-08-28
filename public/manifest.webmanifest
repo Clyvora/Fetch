@@ -1,0 +1,11 @@
+{
+  "name": "Clyvora Fetch",
+  "short_name": "Fetch",
+  "description": "Download audio from supported public links when you have permission.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090a0c",
+  "theme_color": "#090a0c",
+  "icons": [{ "src": "/favicon.png", "sizes": "128x128", "type": "image/png" }]
+}
+
