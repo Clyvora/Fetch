@@ -88,7 +88,7 @@ export default function App() {
 
   return <main>
     <header>
-      <button className="brand" type="button" onClick={reset} aria-label="Clyvora Fetch home"><span>F</span>Clyvora <strong>Fetch</strong></button>
+      <button className="brand" type="button" onClick={reset} aria-label="Clyvora Fetch home"><img src="/favicon.png" alt="" width="34" height="34" decoding="async" /><span>Clyvora <strong>Fetch</strong></span></button>
       <span className="experimental">Experimental</span>
     </header>
 

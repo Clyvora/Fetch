@@ -8,7 +8,8 @@ main { min-height: 100vh; background: radial-gradient(circle at 50% -10%, rgba(9
 header, footer, .hero { width: min(1020px, calc(100% - 40px)); margin: 0 auto; }
 header { display: flex; min-height: 76px; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
 .brand { display: flex; padding: 7px; align-items: center; gap: 6px; color: inherit; border: 0; background: transparent; cursor: pointer; }
-.brand > span { display: grid; width: 34px; height: 34px; margin-right: 5px; place-items: center; color: var(--ink); border-radius: 10px; background: var(--accent); font-weight: 800; }
+.brand img { display: block; width: 34px; height: 34px; margin-right: 5px; object-fit: contain; }
+.brand > span { display: inline-block; }
 .brand strong { font-weight: 650; }
 .experimental { padding: 8px 11px; color: #c8dcef; border: 1px solid rgba(167, 199, 234, .3); border-radius: 999px; background: rgba(167, 199, 234, .08); font: 10px ui-monospace, monospace; letter-spacing: .08em; text-transform: uppercase; }
 .hero { display: grid; min-height: calc(100vh - 150px); padding: 78px 0 70px; align-content: start; justify-items: center; text-align: center; }

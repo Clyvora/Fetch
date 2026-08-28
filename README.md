@@ -4,6 +4,8 @@
 
 Clyvora Fetch is an **experimental** networked tool. It currently accepts one public SoundCloud track URL, asks ClyvoraAPI for public metadata and an available non-encrypted progressive audio location, then downloads the audio from the source CDN in the browser.
 
+![Clyvora Fetch social preview](public/og.png)
+
 It is not affiliated with or endorsed by SoundCloud. It does not support DRM, authentication, paywalls, private tracks, token-bearing links, regional bypasses, deleted media, paid previews, or encrypted streams.
 
 ## Development
